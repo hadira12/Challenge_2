@@ -1,0 +1,86 @@
+body{
+    font-size: 14px;
+}
+/* Banner */
+
+.navbar, #banner{
+    background-color: #F1F3FF;
+}
+
+.btn-green{
+    background-color: #5CB85F;
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 600;
+}
+
+#banner p{
+    margin: 25px 0;
+}
+
+/* Our-Service */
+
+#Our-Service ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#Our-Service li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#Our-Service li:before{
+    content:url(asset/check.svg);
+    margin-right: 15px;
+    width: 24px;
+    height: 24px;
+
+}
+
+#Our-Service img{
+    height: 374px;
+    padding-right: 40px;
+}
+
+/* why us */
+
+.icon-why{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 15px;
+}
+
+
+/* banner2 */
+.card-banner{
+    background-color: #0D28A6;
+}
+
+/* owl css */
+.owl-nav{
+    display:flex;
+    justify-content: center;
+    gap:20px;
+    margin-top:20px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev{
+    padding:6px 12px !important;
+    border:1px solid #000;
+}
+
+#Testimonial .card-body{
+    background-color: #F1F3FF;
+}
+
+/*-- footer --*/
+
+#container li{
+    list-style: none;
+    display: block;
+    text-decoration: none;
+}
